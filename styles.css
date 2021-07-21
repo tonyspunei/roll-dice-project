@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1e1e1e;
+}
+
+.dice {
+  text-align: center;
+}
+
+.dice__title {
+  color: #111;
+  padding: 1em;
+  background: #eee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dice__btn {
+  margin: 2rem 0;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.dice__btn:hover {
+  opacity: 0.8;
+}
+
+.dice__result {
+  margin: 2rem 0;
+}
+
+.rollDice {
+  transform: rotate(-180deg);
+  transition: all 0.4s ease-in-out;
+}
+
+.rollDice-2 {
+  transform: rotate(180deg);
+  transition: all 0.4s ease-in-out;
+}
